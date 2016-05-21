@@ -12,8 +12,8 @@ export const HomeView = () => (
            type="text"/>
 
     <ul>
-      {data.images.map((name, index) =>
-        <Photograph url={data.images[index].url}/>
+      {data.images.map((image, index) =>
+        <Photograph url={image.url} tags={image.tags}/>
       )}
     </ul>
   </div>
