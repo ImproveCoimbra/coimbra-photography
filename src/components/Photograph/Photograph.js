@@ -7,7 +7,7 @@ export const Photograph = (props) => (
     className={classes.photograph}
     width="300"
     height="300"
-    src={"http://studentmundialblog.com/blog/wp-content/uploads/2015/11/coimbra-city.jpg"} />
+    src={props.url} />
 )
 
 export default Photograph
