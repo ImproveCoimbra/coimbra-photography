@@ -2,21 +2,59 @@ import React from 'react'
 import classes from './HomeView.scss'
 import Photograph from '../../../components/Photograph/Photograph'
 import data from '!json!../../../static/photographs.json'
+import _ from 'underscore'
 
-console.log(data);
+export default class HomeView extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {images: data.images};
+  }
 
-export const HomeView = () => (
-  <div>
-    <input id={classes.searchBar}
-           placeholder="Search"
-           type="text"/>
+  handleSearch(evt) {
+    //console.log(evt.currentTarget.value);
+    /*this.state.images = _.filter(this.state.images, (img) => img.indexOf(evt.currentTarget.value) != -1);
+    this.state.images = _.filter(this.state.images, function (img) {
+      img.tags.map(())
+    });*/
 
-    <ul>
-      {data.images.map((image, index) =>
-        <Photograph url={image.url} tags={image.tags}/>
-      )}
-    </ul>
-  </div>
-)
+    if (evt.currentTarget.value.length === 0) {
+      this.state.images = data.images;
+      this.forceUpdate();
+      return;
+    }
+
+    var newImages = [];
+
+    this.state.images.map(function (img) {
+      for (var i = 0; i < img.tags.length; i++) {
+        if (img.tags[i].indexOf(evt.currentTarget.value) != -1) {
+          newImages.push(img);
+          break;
+        }
+      }
+    });
+
+    this.state.images = newImages;
+
+    this.forceUpdate();
+  }
+
+  render() {
+    return (
+      <div>
+        <input id={classes.searchBar}
+               placeholder="Search"
+               onChange={this.handleSearch.bind(this)}
+               type="text"/>
+
+        <ul>
+          {this.state.images.map((image, index) =>
+            <Photograph url={image.url} tags={image.tags}/>
+          )}
+        </ul>
+      </div>
+    );
+  }
+}
 
 export default HomeView
