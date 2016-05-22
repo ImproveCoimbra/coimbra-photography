@@ -60,7 +60,7 @@ export default class HomeView extends React.Component {
           )}
         </ul>
 
-        <p>
+        <p id={classes.footer}>
         <a rel="license"
            href="http://creativecommons.org/publicdomain/zero/1.0/">
           <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style={{borderStyle: "none"}} alt="CC0" />
@@ -69,13 +69,13 @@ export default class HomeView extends React.Component {
         To the extent possible under law,
         <a rel="dct:publisher"
            href="improvecoimbra.org">
-          <span property="dct:title">Improve Coimbra</span></a>
-        has waived all copyright and related or neighboring rights to
-        <span property="dct:title">Coimbra Photography</span>.
+          <span property="dct:title"> Improve Coimbra </span></a>
+        has waived <br/> all copyright and related or neighboring rights to
+        <span property="dct:title"> Coimbra Photography</span>.
+            <br/>
       This work is published from:
       <span property="vcard:Country" datatype="dct:ISO3166"
-            content="PT" about="improvecoimbra.org">
-        Portugal</span>.
+            content="PT" about="improvecoimbra.org"> Portugal</span>.
       </p>
 
       </div>

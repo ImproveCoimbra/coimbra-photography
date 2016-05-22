@@ -11,8 +11,23 @@
 
 #introDescription {
   font-size: 1.2em;
-  width: 60%;
+  width: 47%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
+}
+
+#footer {
+  font-size: 0.8em;
+  color: #939393;
+
+  margin: 3% 0;
+
+  a {
+    color: #A5BFDB;
+  }
+
+  img {
+    margin-bottom: 1%;
+  }
 }
