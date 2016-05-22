@@ -2,16 +2,19 @@
   "images": [
     {
       "url": "http://studentmundialblog.com/blog/wp-content/uploads/2015/11/coimbra-city.jpg",
+      "thumbnail": "http://studentmundialblog.com/blog/wp-content/uploads/2015/11/coimbra-city.jpg",
       "tags": ["baixa", "jardim"]
     },
 
     {
       "url": "http://www.premiumtours.pt/wp-content/uploads/Coimbra.jpg",
+      "thumbnail": "http://www.premiumtours.pt/wp-content/uploads/Coimbra.jpg",
       "tags": ["baixa"]
     },
 
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Almedina-CCBY.jpg",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/38/Almedina-CCBY.jpg",
       "tags": ["jardim"]
     }
   ]
