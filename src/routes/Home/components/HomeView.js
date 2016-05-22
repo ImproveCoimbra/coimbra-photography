@@ -70,7 +70,7 @@ export default class HomeView extends React.Component {
         <a rel="dct:publisher"
            href="improvecoimbra.org">
           <span property="dct:title">Improve Coimbra</span></a>
-        has waived all copyright and related or neighboring rights to 
+        has waived all copyright and related or neighboring rights to
         <span property="dct:title">Coimbra Photography</span>.
       This work is published from:
       <span property="vcard:Country" datatype="dct:ISO3166"
