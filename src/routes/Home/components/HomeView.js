@@ -49,7 +49,7 @@ export default class HomeView extends React.Component {
 
         <ul>
           {this.state.images.map((image, index) =>
-            <Photograph url={image.url} thumbnail={image.thumbnail} tags={image.tags} />
+            <Photograph key={index} url={image.url} thumbnail={image.thumbnail} tags={image.tags} />
           )}
         </ul>
       </div>
