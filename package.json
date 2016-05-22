@@ -32,7 +32,7 @@
     "dev": {
       "command": "nodemon --exec babel-node bin/server",
       "env": {
-        "NODE_ENV": "development",
+        "NODE_ENV": "production",
         "DEBUG": "app:*"
       }
     },
