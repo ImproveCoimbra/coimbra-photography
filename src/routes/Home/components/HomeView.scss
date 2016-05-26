@@ -15,12 +15,12 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
+  color: #878686;
 }
 
 #footer {
   font-size: 0.8em;
   color: #939393;
-
   margin: 3% 0;
 
   a {
@@ -30,4 +30,12 @@
   img {
     margin-bottom: 1%;
   }
+}
+
+@media (max-width: 717px) {
+  #introDescription {
+    width: 77%;
+    margin-bottom: 7%;
+  }
+
 }

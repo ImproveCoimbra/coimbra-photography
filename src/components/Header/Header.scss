@@ -4,5 +4,11 @@
 }
 
 h1 {
-  font-size: 4em !important;
+  font-size: 3.7em !important;
+}
+
+@media (max-width: 717px) {
+  h1 {
+    font-size: 3em !important;
+  }
 }
