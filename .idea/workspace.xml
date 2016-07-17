@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a09bbe-6fc1-4bc4-a278-f5411505fc98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/photographs.json" afterPath="$PROJECT_DIR$/src/static/photographs.json" />
     </list>
     <ignored path="coimbra-photography.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="photographs.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/static/photographs.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8383621">
-              <caret line="268" column="674" selection-start-line="268" selection-start-column="674" selection-end-line="268" selection-end-column="674" />
+            <state vertical-scroll-proportion="0.04849138">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -425,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1046" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -868,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/photographs.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8383621">
-          <caret line="268" column="674" selection-start-line="268" selection-start-column="674" selection-end-line="268" selection-end-column="674" />
+        <state vertical-scroll-proportion="0.04849138">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
